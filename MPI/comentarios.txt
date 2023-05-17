@@ -1,0 +1,32 @@
+
+C O N C L U S I O N E S
+
+En base a los resultados observados en los gráficos, 
+se pueden hacer algunas conclusiones y comentarios sobre 
+la eficiencia del programa con diferentes números de procesos 
+y cómo escala el programa con el tamaño de la imagen.
+
+En cuanto a la eficiencia del programa con diferentes 
+números de procesos, se puede observar que el tiempo de 
+ejecución disminuye a medida que aumenta el número de procesos 
+utilizados. Sin embargo, se puede ver que la ganancia de eficiencia 
+no es lineal, ya que el tiempo de ejecución disminuye significativamente 
+cuando se aumenta de 1 a 2 procesos, pero luego la disminución es más gradual 
+a medida que se agregan más procesos. Esto sugiere que hay un límite en la cantidad
+ de ganancia de eficiencia que se puede obtener al utilizar más procesos y que el 
+ programa podría estar alcanzando ese límite.
+
+En cuanto a cómo escala el programa con el tamaño de la imagen, 
+se puede ver que el tiempo de ejecución aumenta significativamente a 
+medida que aumenta el tamaño de la imagen, lo que sugiere que el programa 
+no escala de manera eficiente con el tamaño del problema. Este comportamiento
+ es esperable, ya que a medida que se aumenta el tamaño de la imagen, también
+  aumenta la cantidad de cálculos necesarios para procesar la imagen, lo que puede 
+  resultar en un aumento exponencial del tiempo de ejecución.
+
+En cuanto a los factores que podrían estar afectando el 
+rendimiento, se podría considerar una mejor implementación del algoritmo 
+y la arquitectura del sistema en el que se está ejecutando el programa.
+ Es posible que haya formas de optimizar el algoritmo para que se ejecute más
+ eficientemente, o que se necesite una arquitectura de sistema diferente para
+ obtener mejores resultados. 
